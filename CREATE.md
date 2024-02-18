@@ -23,9 +23,7 @@
 	Resize disk	
 
 ```
-	$ sudo apt install raspi-config
-
-	$ raspi-config
+	$ sudo raspi-config
 
  		--> Advanced (Menu 6)
  		--> Expand FS (Menu 1)
@@ -35,6 +33,5 @@
 ### Post Installation
 ```
 	$ sudo apt update
-	$ sudo apt upgrade
 	$ sudo apt install ...
 ```
