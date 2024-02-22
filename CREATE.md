@@ -35,3 +35,9 @@
 	$ sudo apt update
 	$ sudo apt install ...
 ```
+
+
+# CREATE PASSWORD
+```
+	echo 'mypassword' | openssl passwd -6 -stdin
+```
